@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## cacheSolve expects an object of type makeCacheMatrix.
 ## It returns the inverse of the matrix assigned to x
-## If x.m is not null it sets the inverse of the matrix
+## If x.m is not null it returns the cached inverse of the matrix
 ## otherwise it solves the matrix and assings it to m 
 ##and returns the inverse
 
